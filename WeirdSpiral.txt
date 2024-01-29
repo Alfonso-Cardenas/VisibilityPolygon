@@ -1,0 +1,52 @@
+obstacleList.push_back(new triangle(
+        vec2(-1, -1),
+        vec2(-.2, -.4),
+        vec2(.2, -1)));
+
+    obstacleList.push_back(new triangle(
+        vec2(-.2, -.4),
+        vec2(.2, -1),
+        vec2(0.4, 0.2)));
+
+    obstacleList.push_back(new triangle(
+        vec2(0, -0.2),
+        vec2(0.4, 0.2),
+        vec2(0.4, 0.6)));
+
+    obstacleList.push_back(new triangle(
+        vec2(0.4, 0.6),
+        vec2(-0.2, 0.8),
+        vec2(0.2, 0.2)));
+
+    obstacleList.push_back(new triangle(
+        vec2(-0.2, 0.8),
+        vec2(-0.6, 0.6),
+        vec2(0, 0.5)));
+
+    obstacleList.push_back(new triangle(
+        vec2(-.6, 0.6),
+        vec2(-0.4024104, .567068),
+        vec2(-0.493841, 0.2022629)));
+
+    obstacleList.push_back(new triangle(
+        vec2(-0.493841, 0.2022629),
+        vec2(-.25794733, 0.2066314),
+        vec2(-0.4506701, 0.3745154)));
+
+    worldPath = { vec2(-1, -1),
+                vec2(-0.2, -.4),
+                vec2(0, -0.2),
+                vec2(0.2, 0.2),
+                vec2(0, .5),
+                vec2(-.4024104, .5670684),
+                vec2(-.4506701, 0.37451545),
+                vec2(-.2579473, 0.206631402),
+                vec2(-0.493841, .202262982),
+                vec2(-.6, 0.6),
+                vec2(-.2, .8),
+                vec2(0.4, .6),
+                vec2(0.4, 0.2),
+                vec2(0.2, -1),
+                vec2(1, -1),
+                vec2(1, 1),
+                vec2(-1, 1) };
